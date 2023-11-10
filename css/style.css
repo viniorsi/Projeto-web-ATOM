@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(153, 153, 153);
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #134e6f;
+}
+
+hr {
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: solid #134e6f;
+}
+
+.titulo_header {
+    margin-left: 5%;
+    font-size: 1.5625rem;
+}
+
+.titulo_header img {
+    width: 20%;
+}
+
+.titulo_header a {
+    color: #54a0ff;
+}
+
+.titulo_header a:hover {
+    color: white;
+}
+
+.menu {
+    width: 20%;
+    margin-right: 4%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu a {
+    color: #54a0ff;
+    font-size: 1.25rem;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.container {
+    margin-top: 3%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.robo img {
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.historia {
+    width: 40%;
+    height: 65%;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2.1875rem;
+}
+
+.card {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.card ul {
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+.galeria {
+    width: 90%;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria img {
+    width: 23%;
+    margin-bottom: 1%;
+    border-radius: 7%;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    background-color: #134e6f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.redes_sociais {
+    width: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.redes_sociais a {
+    font-size: 1.875rem;
+    margin-top: 4%;
+    color: white;
+}
+
+.fa-instagram:hover {
+    border-radius: 1.5625rem;
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0 0.1875rem 0.625rem rgba(0, 0, 0, .25);
+}
+
+.fa-twitch:hover {
+    color: #6441a5;
+}
+
+.fa-facebook:hover {
+    color: #4d6cb1;
+}
+
+.fa-steam:hover {
+    background: linear-gradient(120deg, #00adee, #000000);
+    color: white;
+    border-radius: 20%;
+}
+
+.fa-discord:hover {
+    color: #7289da;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+/************************** PAGINA PEÇAS *************************** */
+
+#titulo_pag_pecas {
+    font-size: 3.125rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.pecas img {
+    width: 30%;
+    height: 100%;
+    border-radius: 2.5rem;
+}
+
+.conteudo_pecas {
+    width: 40%;
+    height: 65%;
+    font-size: 1.8rem;
+    line-height: 2.1875rem;
+}
+
+.conteudo_pecas h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.conteudo_pecas ul {
+    list-style-position: inside;
+}
+
+/* ***************************FIM pagina peças************************** */
+
+
+/* *******************************pagina equipe ******************************** */
+
+.integrantes {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_integrante {
+    background-color: #7EC8E3;
+    border-radius: 7%;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_integrante img {
+    height: 40%;
+    margin-top: 5%;
+    border-radius: 30%;
+}
+
+.conteudo_integrante {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo_integrante p {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.RM_nome {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.RM_nome h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.RM_nome a {
+    font-size: 1.875rem;
+    color: white;
+    margin-left: 0.625rem;
+}
+
+/********************* fim pagina equipe ****************** */
+
+/* **********************começo pagina contato ************ */
+
+.pagina_contato {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_forms {
+    height: 70vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.imagem_robo {
+    background-image: url(../imagens/atom_forms.png);
+}
+
+form {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 6%;
+}
+
+form h1 {
+    margin-bottom: 4%;
+}
+
+fieldset {
+    width: 100%;
+    margin-bottom: 5%;
+    border: none;
+}
+
+input,
+textarea {
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 1.25rem;
+    padding: 0.625rem;
+    border: solid black;
+}
+
+input:focus,
+textarea:focus {
+    border: #1a6996 solid;
+    outline: none;
+}
+
+input {
+    height: 5vh;
+}
+
+textarea {
+    height: 15vh;
+    resize: none;
+    margin-top: 4%;
+}
+
+#enviar {
+    height: 5vh;
+    width: 20%;
+    border-radius: 20px;
+}
+
+@media(max-width: 1440px) {
+    .container_forms {
+        background-position: 100% 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .container_forms {
+        background-position: 100% 100%;
+        background-size: 60%;
+    }
+
+    .redes_sociais {
+        width: 18%;
+    }
+
+    .conteudo_integrante p {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media(max-width: 769px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .titulo_header img {
+        width: 17%;
+    }
+
+    .galeria img {
+        width: 30%;
+    }
+
+    .card_integrante {
+        border-radius: 1.66rem;
+    }
+
+    .conteudo_integrante p {
+        font-size: 1.07rem;
+    }
+
+    .container_forms {
+        width: 90%;
+        background-position: 100% 50%;
+        height: 60vh;
+    }
+
+    form {
+        height: auto;
+    }
+
+    input {
+        height: 4vh;
+        font-size: 0.916rem;
+    }
+
+    #enviar {
+        width: 30%;
+    }
+}
+
+@media(max-width: 426px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .titulo_header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .robo img {
+        width: 80%;
+        border-radius: 1.25rem;
+    }
+
+    .historia {
+        margin: 4% 0;
+        width: 90%;
+    }
+
+    .card {
+        width: 90%;
+        margin: 4% 0;
+    }
+
+    .galeria img {
+        width: 45%;
+        margin-bottom: 4%;
+    }
+
+    .redes_sociais {
+        display: flex;
+        width: 33%;
+        font-size: 1rem;
+    }
+
+    .pecas img {
+        width: 60%;
+        border-radius: 4.166rem;
+        margin-bottom: 4%;
+    }
+
+    .conteudo_pecas {
+        width: 80%;
+        font-size: 1.66rem;
+        margin: 4% 0;
+    }
+
+    .integrantes {
+        flex-wrap: wrap;
+    }
+
+    .card_integrante {
+        width: 70%;
+        height: 35vh;
+        margin: 3% 0;
+    }
+
+    .imagem_robo {
+        background-image: url(../imagens/banner_atom.png);
+    }
+
+    .container_forms {
+        height: 80vh;
+        background-size: 120%;
+        background-position: 40% 100%;
+        margin: 0%;
+        margin-top: 3%;
+        align-items: flex-start;
+    }
+
+    form {
+        height: 70%;
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .formulario h1 {
+        font-size: 3.33rem;
+        margin-top: 5%;
+    }
+
+    fieldset {
+        margin: 0%;
+    }
+
+}
+
+@media(max-width: 376px) {
+
+    .redes_sociais {
+        width: 35%;
+    }
+
+    .card_integrante {
+        width: 80%;
+        margin: 3% 0;
+    }
+
+}
+
+@media(max-width: 321px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .galeria img {
+        width: 100%;
+    }
+
+}
